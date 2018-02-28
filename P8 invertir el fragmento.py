@@ -1,0 +1,6 @@
+s=("sabes si hay hierba en el parque")
+print(s)
+primera=s .find("h")
+print(primera)
+segunda=s .rfind("h")
+print(s[primera+1:segunda][::-1])
