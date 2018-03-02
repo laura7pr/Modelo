@@ -1,0 +1,5 @@
+cadena=("ayer te hablo tu madre")
+print(cadena)
+primera =cadena.find("t")
+segunda= cadena.rfind("t")
+print(cadena[primera+1:segunda])
